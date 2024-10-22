@@ -1,5 +1,4 @@
-yguyhihnui
-hii
+library(usethis)
 
-hi = hola!
-  
+use_github()
+hii
