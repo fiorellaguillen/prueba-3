@@ -1,0 +1,16 @@
+---
+title: "prueba R Markdown"
+author: "rfgh"
+date: "2024-10-28"
+output:
+  html_document: default
+  pdf_document: default
+---
+```{r}
+library(terra)
+library(here)
+jan<-terra::rast(here("..","..","WEEK 3", "PRACTICAL","data", "wc2.1_5m_tavg_01.tif"))
+# have a look at the raster layer jan
+plot(jan)
+```
+
